@@ -37,3 +37,13 @@ To compute the HoG features for HoG Based ERM ,
 python -m domainbed.scripts.convert_pacs_to_hog
 ```
 
+To run HoG Based ERM
+```sh
+python -m domainbed.scripts.train  --dataset HOGPACS --algorithm PrecomputedHOGMLP  --data_dir=./domainbed/data/ --test_env 0 --hparams "{}" --output_dir plain/HOGPACS/0
+```
+
+For other algorithms
+```sh
+python3 -m domainbed.scripts.train --data_dir=./domainbed/data/ --algorithm EQRM --dataset PACS --test_env 0 --output_dir plain/EQRM/0
+```
+
