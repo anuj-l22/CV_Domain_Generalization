@@ -54,3 +54,15 @@ python3 -m domainbed.scripts.train --data_dir=./domainbed/data/ --algorithm EQRM
 ![Results_2](./results_2.jpg )  
 **Figure 2:** Results for URM, EQRM
 
+## Acknowledgments
+
+This project builds upon [DomainBed](https://github.com/facebookresearch/DomainBed) for domain generalization in computer vision. 
+
+```bibtex
+@misc{domainbed,
+  title = {DomainBed: A PyTorch Suite for Domain Generalization},
+  author = {Gulrajani, Ishaan and Lopez-Paz, David},
+  howpublished = {\url{https://github.com/facebookresearch/DomainBed}},
+  note = {Accessed: \today},
+  year = {2021}
+}
