@@ -23,5 +23,13 @@ In this project , we explored the impact of several pruning methods on domain ge
 - Structured pruning
 - Random pruning
 - Sensitivity based pruning
-  
-- 
+
+We performed an exhaustive study on the PACS dataset . 
+
+## Commands to reproduce
+To download the dataset
+```sh
+python3 -m domainbed.scripts.download \
+       --data_dir=./domainbed/data
+```
+
