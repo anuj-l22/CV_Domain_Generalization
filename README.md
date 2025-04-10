@@ -46,4 +46,11 @@ For other algorithms
 ```sh
 python3 -m domainbed.scripts.train --data_dir=./domainbed/data/ --algorithm EQRM --dataset PACS --test_env 0 --output_dir plain/EQRM/0
 ```
+## Results
+
+![Results_1](./results_1.jpg )  
+**Figure 1:** Results for ERM , IRM, ERM++
+
+![Results_2](./results_2.jpg )  
+**Figure 2:** Results for URM, EQRM
 
