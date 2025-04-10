@@ -29,7 +29,11 @@ We performed an exhaustive study on the PACS dataset .
 ## Commands to reproduce
 To download the dataset
 ```sh
-python3 -m domainbed.scripts.download \
-       --data_dir=./domainbed/data
+python3 -m domainbed.scripts.download  --data_dir=./domainbed/data
+```
+
+To compute the HoG features for HoG Based ERM ,
+```sh
+python -m domainbed.scripts.convert_pacs_to_hog
 ```
 
