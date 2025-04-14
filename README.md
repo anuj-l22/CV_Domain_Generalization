@@ -26,6 +26,8 @@ In this project , we explored the impact of several pruning methods on domain ge
 
 We performed an exhaustive study on the PACS dataset . 
 
+[The links to the Baseline models can be found here](https://drive.google.com/drive/folders/1QNcMcL89xYzU55Zqywqr9HOh6bNNZ6xF?usp=sharing) 
+
 ## Commands to reproduce
 To download the dataset
 ```sh
